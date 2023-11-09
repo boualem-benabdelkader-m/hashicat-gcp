@@ -1,6 +1,7 @@
 module "network" {
   source  = "app.terraform.io/boualem-benabdelkader-org/network/google"
   version = "3.4.0"
+  network_name = "gaurav-network"
   subnets = [
     {
       subnet_name   = "gaurav-subnet"
